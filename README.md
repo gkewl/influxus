@@ -5,11 +5,9 @@ Golang Hook for the [Logrus](https://github.com/Sirupsen/logrus) logging library
 
 Usage
 ---
+This is a forked version of vlad-doru/influxus, the only changes planned are removing fatals from the code.
+For actual details goto vlad-doru/influxus, there is no plan at this point to make any improvements or enhancements to this fork
 
-### Installation
-
-```
-go get github.com/vlad-doru/influxus
 ```
 
 ### Example
@@ -67,9 +65,3 @@ When passing an empty string for the InfluxDB database name, we default to "logr
 
 We will insert your message into InfluxDB with the field message.
 
-TODO
----
-
-- [x] Concurrent, non-blocking design.
-- [ ] Add unit tests
-- [ ] Set up continous integration.
